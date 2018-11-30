@@ -1,0 +1,11 @@
+version: '3'
+services:
+  ros:
+    build: .
+    ports:
+      - 6080:80
+#    volumes:
+#      - "ros-data:./demo"
+#volumes:
+#  ros-data:
+
